@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan Your Trip</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="content-page">
+
+  <header>
+    <h1>Saudi Seasonal Travel Guide </h1>
+        <nav>
+            <a href="HomePage.html">Home | </a>
+            <a href="seasons.html">Explore The Cities | </a>
+            <a href="experiences.html">Different Experiences | </a>
+            <a href="compare.html">Compare Destinations | </a>
+            <a href="plan.html">Plan Your Trip </a>
+        </nav>
+        </header>
+  
+  <div class ="content-box">
+  <main>
+    <section>
+      <h2>Find Your Saudi Escape</h2>
+      <p>Tell us a little about your trip and we'll help you plan it.</p>
+
+      <form action="#" method="post">
+
+        <h3>When do you want to travel?</h3>
+        <input type="radio" id="winter" name="season" value="winter" required>
+        <label for="winter">Winter</label><br>
+        <input type="radio" id="spring" name="season" value="spring">
+        <label for="spring">Spring</label><br>
+        <input type="radio" id="summer" name="season" value="summer">
+        <label for="summer">Summer</label><br>
+        <input type="radio" id="autumn" name="season" value="autumn">
+        <label for="autumn">Autumn</label>
+
+        <h3>What are you interested in?</h3>
+        <input type="checkbox" id="nature" name="interests" value="nature">
+        <label for="nature">Nature</label><br>
+        <input type="checkbox" id="heritage" name="interests" value="heritage">
+        <label for="heritage">Heritage &amp; Culture</label><br>
+        <input type="checkbox" id="adventure" name="interests" value="adventure">
+        <label for="adventure">Adventure</label><br>
+        <input type="checkbox" id="beaches" name="interests" value="beaches">
+        <label for="beaches">Beaches</label><br>
+        <input type="checkbox" id="city" name="interests" value="city">
+        <label for="city">City experiences</label>
+
+        <h3>How long is your trip?</h3>
+        <label for="duration">Trip length:</label>
+        <select id="duration" name="duration" required>
+          <option value="">-- Select --</option>
+          <option value="1-2">1–2 days</option>
+          <option value="3-4">3–4 days</option>
+          <option value="5+">5+ days</option>
+        </select>
+
+        <h3>Who are you traveling with?</h3>
+        <input type="radio" id="solo" name="companions" value="solo" required>
+        <label for="solo">Solo</label><br>
+        <input type="radio" id="friends" name="companions" value="friends">
+        <label for="friends">Friends</label><br>
+        <input type="radio" id="family" name="companions" value="family">
+        <label for="family">Family</label>
+
+        <h3>Preferred destination</h3>
+        <label for="destination">Choose a destination:</label>
+        <select id="destination" name="destination" required>
+          <option value="">-- Select --</option>
+          <option value="riyadh">Riyadh</option>
+          <option value="alula">AlUla</option>
+          <option value="alahsa">Al-Ahsa</option>
+          <option value="alkhobar">Al-Khobar</option>
+          <option value="abha">Abha</option>
+          <option value="albaha">Al-Baha</option>
+          <option value="taif">Taif</option>
+          <option value="jeddah">Jeddah</option>
+        </select>
+        
+        <br><br>
+        <input type="submit" value="Plan My Trip">
+        <input type="reset" value="Clear">
+      </form>
+    </section>
+  </main>
+</div>
+  <footer>
+    <a class="prev-arrow" href="compare.html">← Previous Page</a>
+    <p style="clear: both;"></p>
+  </footer>
+
+</body>
+</html>
